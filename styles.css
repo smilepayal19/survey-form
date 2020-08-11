@@ -1,0 +1,61 @@
+body {
+  background-image: url("https://i2.wp.com/lelandswallpaper.com/wp-content/uploads/2020/02/DI0968-York-Wallcoverings-Disney-Volume-4-Disney-Princess-Pretty-Elegant-Wallpaper-White.jpg?fit=500%2C500&ssl=1")
+}
+header {
+  text-align: center;
+  background-color: hsla(270, 80%, 60%, .8);
+  width: 450px;
+  margin: auto;
+  font-family: 'Courgette', cursive;
+}
+#title {
+  margin-bottom: -10px;
+  font-size: 28px;
+}
+main {
+  text-align: center;
+  background-color: hsla(270, 40%, 70%, .8);
+  width: 575px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+#survey-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#survey-fields {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-gap: 10px;
+}
+label {
+  text-align: left;
+  margin-bottom: -7px;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  min-width: 100%;
+}
+fieldset input {
+  position: relative;
+  top: 15px
+}
+fieldset label {
+  position: absolute;
+  left: 140px;
+}
+fieldset label:hover {
+  font-weight: bold;
+}
+#submit {
+  width: 80px;
+  margin: auto;
+}

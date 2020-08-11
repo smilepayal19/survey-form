@@ -1,0 +1,82 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="styles.css">
+<head>
+  <title>build a survey form</title>
+</head>
+
+<body>
+ <header>
+  <section>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <h1 id="title">Disney Princess Survey Form</h1>
+    <p id="description">Thank you for taking the time to share your Disney opinions!</p>
+  </section>
+</header>
+
+<main>
+ <form id="survey-form">
+  <section id="survey-fields">
+           
+   <label for="name" id="name-label">Name</label>
+   <input id="name" type="text" placeholder="Enter your name" required>
+   <label for="email" id="email-label">Email</label>
+   <input id="email" type="email" placeholder="Enter your email" required>
+   <label for="number" id="number-label">Age (optional)</label>
+   <input id="number" type="number" placeholder="Enter your age" min=1 max=110>
+  
+  <label for="dropdown">Which is your preferred media for Disney Princess stories?</label>
+  <select id="dropdown" name="media">
+    <option value="books">Books</option>
+    <option value="animated movies">Animated Movies</option>
+    <option value="live action remakes">Live Action Remakes</option>
+    </select>
+  
+  <label for="recommendation">Would you recommend Disney princess stories to a friend?</label>
+  <fieldset id="recommendation">
+    <input type="radio" id="yes" name="recommend" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="recommend" value="no">
+    <label for="no">No</label>
+    <input type="radio" id="maybe" name="recommend" value="maybe">
+    <label for="maybe">Maybe</label>
+  </fieldset>
+  
+  <label for="dropdowntwo">What is your favorite aspect of Disney princess stories?</label>
+    <select id="dropdowntwo" name="favaspect">
+      <option value="hairandmakeup">Hair and Makeup</option>
+      <option value="dresses">Dresses</option>
+      <option value="princes">Princes</option>
+      <option value="animal side characters">Animal Side Characters</option>
+    </select>
+      
+  <label for="princesses">Which princesses are your favorite?</label>
+  <fieldset id="princesses">
+    <input type="checkbox" id="princess1" name="princess1" value="Cinderella">
+    <label for="princess1">Cinderella</label>
+    <input type="checkbox" id="princess2" name="princess2" value="Aurora">
+    <label for="princess2">Aurora</label>
+    <input type="checkbox" id="princess3" name="princess3" value="Belle">
+    <label for="princess3">Belle</label>
+    <input type="checkbox" id="princess4" name="princess4" value="Snow White">
+    <label for="princess4">Snow White</label>
+    <input type="checkbox" id="princess5" name="princess5" value="Mulan">
+    <label for="princess5">Mulan</label>
+    <input type="checkbox" id="princess6" name="princess6" value="Tiana">
+    <label for="princess6">Tiana</label>
+    <input type="checkbox" id="princess7" name="princess7" value="Rapunzel">
+    <label for="princess7">Rapunzel</label>
+    <input type="checkbox" id="princess8" name="princess8" value="Jasmine">
+    <label for="princess8">Jasmine</label>
+    <input type="checkbox" id="princess9" name="princess9" value="Ariel">
+    <label for="princess9">Ariel</label>
+    <input type="checkbox" id="princess10" name="princess10" value="Merida">
+    <label for="princess10">Merida</label>
+      </fieldset>
+      
+      <label for="comments">Any additional comments or opinions?</label>
+      <textarea id="comments" placeholder="Enter text here" maxlength="500"></textarea>
+      <button id="submit" type="submit">Submit</button>
+
+</section>    
+</form>
+</main>  
